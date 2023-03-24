@@ -134,7 +134,7 @@ func CreateNoteHandler(w http.ResponseWriter, r *http.Request) {
 	json.NewEncoder(w).Encode(note)
 }
 
-var PORT = "3001"
+var PORT = os.Getenv("PORT")
 
 func main() {
 	router := mux.NewRouter()
@@ -153,6 +153,9 @@ func main() {
 	handler := c.Handler(router)
 
 	// Start server
+	if PORT == "" {
+		PORT = "5000"
+	}
 	log.Println("Service running on port :" + PORT)
 	err := http.ListenAndServe(":"+PORT, handler)
 	if err != nil {

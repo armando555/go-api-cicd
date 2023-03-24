@@ -1,3 +1,22 @@
+# Installing dependencies
+```bash
+go get github.com/gorilla/mux
+```
+```bash
+go get github.com/rs/cors
+```
+```bash
+go get github.com/gin-gonic/gin
+```
+This is for unit testing and code coverage
+```bash
+go get github.com/t-yuki/gocover-cobertura
+```
+
+## OR you can execute
+```bash
+go mod tidy
+```
 # For running service
 
 ```bash
@@ -18,13 +37,9 @@ go run main.go
 
 
 # For testing 
-Install dependencies
-```bash
-go get github.com/t-yuki/gocover-cobertura
-```
 Now generate report
 ```bash
-go test -coverprofile=coverage.txt -covermode count ./
+go test -coverprofile=coverage2.txt -covermode count ./
 ```
 Now generate xml
 ```bash
