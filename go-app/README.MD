@@ -18,3 +18,15 @@ go run main.go
 
 
 # For testing 
+Install dependencies
+```bash
+go get github.com/t-yuki/gocover-cobertura
+```
+Now generate report
+```bash
+go test -coverprofile=coverage.txt -covermode count ./
+```
+Now generate xml
+```bash
+/home/$USER/go/bin/gocover-cobertura < coverage.txt > coverage.xml
+```
