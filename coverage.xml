@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage line-rate="0.08181818" branch-rate="0" version="" timestamp="1679632818164" lines-covered="9" lines-valid="110" branches-covered="0" branches-valid="0" complexity="0">
+<coverage line-rate="0.07964602" branch-rate="0" version="" timestamp="1679670214820" lines-covered="9" lines-valid="113" branches-covered="0" branches-valid="0" complexity="0">
 	<sources>
-		<source>/usr/lib/go-1.19/src</source>
-		<source>/home/ariosg/go/src</source>
+		<source>/root/go/src</source>
 	</sources>
 	<packages>
-		<package name="/home/ariosg/go-app" line-rate="0.08181818" branch-rate="0" complexity="0">
+		<package name="go-api-cicd" line-rate="0.07964602" branch-rate="0" complexity="0">
 			<classes>
-				<class name="-" filename="/home/ariosg/go-app/main.go" line-rate="0.08181818" branch-rate="0" complexity="0">
+				<class name="-" filename="go-api-cicd/main.go" line-rate="0.07964602" branch-rate="0" complexity="0">
 					<methods>
 						<method name="HomeHandler" signature="" line-rate="0" branch-rate="0" complexity="0">
 							<lines>
@@ -150,6 +149,9 @@
 								<line number="158" hits="0"></line>
 								<line number="159" hits="0"></line>
 								<line number="160" hits="0"></line>
+								<line number="161" hits="0"></line>
+								<line number="162" hits="0"></line>
+								<line number="163" hits="0"></line>
 							</lines>
 						</method>
 					</methods>
@@ -264,6 +266,9 @@
 						<line number="158" hits="0"></line>
 						<line number="159" hits="0"></line>
 						<line number="160" hits="0"></line>
+						<line number="161" hits="0"></line>
+						<line number="162" hits="0"></line>
+						<line number="163" hits="0"></line>
 					</lines>
 				</class>
 			</classes>

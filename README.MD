@@ -1,20 +1,5 @@
 # Installing dependencies
 ```bash
-go get github.com/gorilla/mux
-```
-```bash
-go get github.com/rs/cors
-```
-```bash
-go get github.com/gin-gonic/gin
-```
-This is for unit testing and code coverage
-```bash
-go get github.com/t-yuki/gocover-cobertura
-```
-
-## OR you can execute
-```bash
 go mod tidy
 ```
 # For running service
